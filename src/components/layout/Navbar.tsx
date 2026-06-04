@@ -24,12 +24,12 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Project', href: '/#about' },
     { name: 'Villas', href: '/#configurations' },
-    { name: 'Floor Plans', href: '/#configurations' },
+    { name: 'Floor Plans', href: '/floor-plans' },
     { name: 'Amenities', href: '/#amenities' },
-    { name: 'Master Plan', href: '/#configurations' },
+    { name: 'Master Plan', href: '/floor-plans' },
     { name: 'Location', href: '/#location' },
     { name: 'Gallery', href: '/#gallery' },
-    { name: 'Specifications', href: '/#configurations' },
+    { name: 'Specifications', href: '/specifications' },
     { name: 'Developer', href: '/#developer' },
   ];
 
@@ -48,7 +48,7 @@ export default function Navbar() {
           className="lg:hidden text-white hover:text-gold transition-colors p-2 -ml-2"
           aria-label="Toggle menu"
         >
-          {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          {isMobileMenuOpen ? <X className="w-5 h-5" aria-hidden="true" /> : <Menu className="w-5 h-5" aria-hidden="true" />}
         </button>
 
         {/* Logo (Aligned Left on Desktop, Right on Mobile) */}
@@ -95,7 +95,7 @@ export default function Navbar() {
                 className="text-white hover:text-gold p-1"
                 aria-label="Close menu"
               >
-                <X className="w-5 h-5" />
+                <X className="w-5 h-5" aria-hidden="true" />
               </button>
             </div>
 

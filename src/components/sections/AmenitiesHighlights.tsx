@@ -228,14 +228,14 @@ export default function AmenitiesHighlights() {
 
                   {/* Card Info */}
                   <div className="flex flex-col gap-1 my-1">
-                    <h4 className="font-heading text-base font-light text-white leading-tight">{category.title}</h4>
-                    <p className="font-body text-[10px] text-white/50 leading-relaxed line-clamp-2">{category.desc}</p>
+                    <h3 className="font-heading text-base font-light text-white leading-tight">{category.title}</h3>
+                    <p className="font-body text-[10px] text-white/80 leading-relaxed line-clamp-2">{category.desc}</p>
                   </div>
 
                   {/* Card Highlights */}
                   <div className="grid grid-cols-2 gap-1.5 pt-2 border-t border-white/10">
                     {category.items.slice(0, 4).map((item) => (
-                      <div key={item} className="flex items-center gap-1 text-[9px] text-gold-light/80">
+                      <div key={item} className="flex items-center gap-1 text-[9px] text-gold-light">
                         <div className="w-1 h-1 rounded-full bg-gold shrink-0" />
                         <span className="truncate">{item}</span>
                       </div>

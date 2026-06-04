@@ -72,7 +72,7 @@ export default function VillaConfigurations() {
               <span className="font-serif italic text-gold-light">Designed for Distinction</span>
             </h2>
           </div>
-          <p className="font-body text-xs md:text-sm text-white/60 max-w-md leading-relaxed">
+          <p className="font-body text-xs md:text-sm text-white/85 max-w-md leading-relaxed">
             Choose from three bespoke layout variants, each offering massive floorplates, premium wooden laminated finishes, and G+2 structures that capture natural light.
           </p>
         </div>
@@ -86,14 +86,14 @@ export default function VillaConfigurations() {
               className="w-8 h-8 rounded-full bg-navy border border-gold/40 text-gold flex items-center justify-center pointer-events-auto active:scale-90 transition-transform shadow-lg"
               aria-label="Scroll left"
             >
-              <ChevronLeft className="w-4 h-4" />
+              <ChevronLeft className="w-4 h-4" aria-hidden="true" />
             </button>
             <button
               onClick={scrollRight}
               className="w-8 h-8 rounded-full bg-navy border border-gold/40 text-gold flex items-center justify-center pointer-events-auto active:scale-90 transition-transform shadow-lg"
               aria-label="Scroll right"
             >
-              <ChevronRight className="w-4 h-4" />
+              <ChevronRight className="w-4 h-4" aria-hidden="true" />
             </button>
           </div>
 
@@ -137,11 +137,11 @@ export default function VillaConfigurations() {
                   {/* Area Metrics */}
                   <div className="grid grid-cols-2 gap-2 p-2.5 md:p-3.5 bg-navy-mid border border-white/5 mb-3 md:mb-5">
                     <div className="flex flex-col gap-0.5">
-                      <span className="font-accent text-[8px] tracking-wider text-white/40">BUILT-UP AREA</span>
+                      <span className="font-accent text-[8px] tracking-wider text-white/70">BUILT-UP AREA</span>
                       <span className="font-display text-base text-gold-light font-medium">{config.bua}</span>
                     </div>
                     <div className="flex flex-col gap-0.5">
-                      <span className="font-accent text-[8px] tracking-wider text-white/40">PLOT SIZE</span>
+                      <span className="font-accent text-[8px] tracking-wider text-white/70">PLOT SIZE</span>
                       <span className="font-display text-base text-gold-light font-medium">{config.plot}</span>
                     </div>
                   </div>
@@ -149,7 +149,7 @@ export default function VillaConfigurations() {
                   {/* Features List */}
                   <ul className="flex flex-col gap-1 md:gap-1.5 mb-3.5 md:mb-5">
                     {config.features.map((feat) => (
-                      <li key={feat} className="flex items-center gap-2 text-xs text-white/70">
+                      <li key={feat} className="flex items-center gap-2 text-xs text-white/90">
                         <div className="w-1.5 h-1.5 rounded-full bg-gold shrink-0" />
                         <span>{feat}</span>
                       </li>
@@ -162,7 +162,7 @@ export default function VillaConfigurations() {
                   <div className="flex items-baseline justify-between mb-4">
                     <div className="flex flex-col">
                       <span className="text-2xl font-display font-light text-white">{config.price}</span>
-                      <span className="text-[9px] font-body text-white/45 uppercase tracking-wider">{config.priceSubtitle}</span>
+                      <span className="text-[9px] font-body text-white/75 uppercase tracking-wider">{config.priceSubtitle}</span>
                     </div>
                     <span className="text-[10px] text-gold-light font-accent underline select-none font-semibold">HMDA APPROVED</span>
                   </div>

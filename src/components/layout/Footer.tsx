@@ -19,7 +19,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-navy border-t border-gold/10 text-white/70 py-8 md:py-12 px-6 md:px-16 font-body text-xs relative overflow-hidden">
+    <footer className="bg-navy border-t border-gold/10 text-white/85 py-8 md:py-12 px-6 md:px-16 font-body text-xs relative overflow-hidden">
       {/* Decorative Orbs */}
       <div className="absolute bottom-0 right-0 w-[300px] h-[300px] rounded-full bg-radial from-teal/5 to-transparent filter blur-3xl -z-10 pointer-events-none" />
       
@@ -34,7 +34,7 @@ export default function Footer() {
               Gandipet, Hyderabad
             </span>
           </Link>
-          <p className="text-white/60 leading-relaxed text-[11px] max-w-sm">
+          <p className="text-white/80 leading-relaxed text-[11px] max-w-sm">
             A premium G+2 gated villa community spread across 20 lush acres near the serene Osman Sagar Lake. Built with 45 years of architectural legacy.
           </p>
           <div className="flex items-center gap-2 text-gold text-[10px] font-accent tracking-wider mt-1">
@@ -44,9 +44,9 @@ export default function Footer() {
 
         {/* Navigation Links Column 1 (1 col on mobile) */}
         <div className="col-span-1 flex flex-col gap-2">
-          <h4 className="font-accent text-[10px] tracking-[0.2em] text-white uppercase border-b border-gold/15 pb-1">
+          <div role="heading" aria-level={4} className="font-accent text-[10px] tracking-[0.2em] text-white uppercase border-b border-gold/15 pb-1 font-semibold">
             The Community
-          </h4>
+          </div>
           <ul className="flex flex-col gap-1.5">
             {linksGroup1.map((link) => (
               <li key={link.name}>
@@ -60,9 +60,9 @@ export default function Footer() {
 
         {/* Navigation Links Column 2 (1 col on mobile) */}
         <div className="col-span-1 flex flex-col gap-2">
-          <h4 className="font-accent text-[10px] tracking-[0.2em] text-white uppercase border-b border-gold/15 pb-1">
+          <div role="heading" aria-level={4} className="font-accent text-[10px] tracking-[0.2em] text-white uppercase border-b border-gold/15 pb-1 font-semibold">
             Resources
-          </h4>
+          </div>
           <ul className="flex flex-col gap-1.5">
             {linksGroup2.map((link) => (
               <li key={link.name}>
@@ -76,10 +76,10 @@ export default function Footer() {
 
         {/* Contact/Developer Column (Full width on mobile, 1 col on desktop) */}
         <div className="col-span-2 lg:col-span-1 flex flex-col gap-3">
-          <h4 className="font-accent text-[10px] tracking-[0.2em] text-white uppercase border-b border-gold/15 pb-1">
+          <div role="heading" aria-level={4} className="font-accent text-[10px] tracking-[0.2em] text-white uppercase border-b border-gold/15 pb-1 font-semibold">
             Developer Office
-          </h4>
-          <ul className="flex flex-col gap-2 text-white/60">
+          </div>
+          <ul className="flex flex-col gap-2 text-white/80">
             <li className="flex items-start gap-2">
               <MapPin className="w-3.5 h-3.5 text-gold shrink-0 mt-0.5" />
               <span className="text-[11px] leading-relaxed">
@@ -107,7 +107,7 @@ export default function Footer() {
       <hr className="border-gold/10 my-6 max-w-7xl mx-auto" />
 
       {/* Disclaimers & Copyright */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] text-white/40 text-center md:text-left">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] text-white/70 text-center md:text-left">
         <div className="flex flex-col gap-0.5 md:max-w-2xl">
           <p>© {currentYear} Villa Scapes Gandipet Portfolio. All rights reserved.</p>
           <p className="leading-normal">

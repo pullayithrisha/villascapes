@@ -77,28 +77,28 @@ export default function AmenitiesPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex flex-col gap-3 p-5 bg-white border border-gold/15 rounded-sm hover:shadow-md transition-shadow">
             <Waves className="w-7 h-7 text-gold" />
-            <h4 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Lakeside District</h4>
+            <h3 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Lakeside District</h3>
             <p className="font-body text-xs text-text-secondary leading-relaxed">
               Scenic views of the Osman Sagar reservoir boundary, offering cooler breezes.
             </p>
           </div>
           <div className="flex flex-col gap-3 p-5 bg-white border border-gold/15 rounded-sm hover:shadow-md transition-shadow">
             <Compass className="w-7 h-7 text-gold" />
-            <h4 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Vastu Compliant</h4>
+            <h3 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Vastu Compliant</h3>
             <p className="font-body text-xs text-text-secondary leading-relaxed">
               Every home structure aligned perfectly to coordinate positive solar movement.
             </p>
           </div>
           <div className="flex flex-col gap-3 p-5 bg-white border border-gold/15 rounded-sm hover:shadow-md transition-shadow">
             <Eye className="w-7 h-7 text-gold" />
-            <h4 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Open Layouts</h4>
+            <h3 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Open Layouts</h3>
             <p className="font-body text-xs text-text-secondary leading-relaxed">
               Villas designed with open front yards, avoiding congested structural boundaries.
             </p>
           </div>
           <div className="flex flex-col gap-3 p-5 bg-white border border-gold/15 rounded-sm hover:shadow-md transition-shadow">
             <Heart className="w-7 h-7 text-gold" />
-            <h4 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Completed Project</h4>
+            <h3 className="font-accent text-xs tracking-wider text-charcoal uppercase font-bold">Completed Project</h3>
             <p className="font-body text-xs text-text-secondary leading-relaxed">
               No development delays. Establish immediate residency in a thriving community.
             </p>

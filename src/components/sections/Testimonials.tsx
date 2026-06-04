@@ -75,7 +75,7 @@ export default function Testimonials() {
 
                 {/* Author Info */}
                 <div className="border-t border-gold/10 pt-4 mt-2">
-                  <h4 className="font-heading text-sm md:text-base font-normal text-charcoal">{item.author}</h4>
+                  <h3 className="font-heading text-sm md:text-base font-normal text-charcoal">{item.author}</h3>
                   <div className="flex flex-col gap-0.5 mt-1 text-[9px] md:text-[10px] text-text-secondary font-body">
                     <span>{item.designation}</span>
                     <span className="text-gold tracking-wider uppercase font-accent font-semibold">{item.villa}</span>

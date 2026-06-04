@@ -81,7 +81,7 @@ export default function ContactPage() {
 
             {/* Quick WhatsApp Link */}
             <div className="p-5 bg-white border border-gold/15 rounded-sm flex flex-col gap-4">
-              <h4 className="font-accent text-[9px] tracking-wider text-gold uppercase font-bold">Quick WhatsApp chat</h4>
+              <div role="heading" aria-level={4} className="font-accent text-[9px] tracking-wider text-gold uppercase font-bold">Quick WhatsApp chat</div>
               <p className="font-body text-xs text-text-secondary leading-relaxed">
                 Prefer texting? Message our desk directly to ask questions instantly.
               </p>
