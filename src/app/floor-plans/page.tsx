@@ -92,6 +92,40 @@ export default function FloorPlansPage() {
             />
           </div>
         </div>
+
+        {/* Separator Line */}
+        <hr className="border-gold/15 my-8" />
+
+        {/* Master Plan Section */}
+        <div id="master-plan" className="flex flex-col gap-8 md:gap-12 pt-8">
+          <div className="flex flex-col gap-4 text-center items-center">
+            <div className="flex items-center gap-3">
+              <div className="w-6 h-[1px] bg-gold" />
+              <span className="font-accent text-[10px] md:text-xs tracking-[0.3em] text-gold uppercase">
+                The Master Layout
+              </span>
+              <div className="w-6 h-[1px] bg-gold" />
+            </div>
+            <h2 className="font-heading font-light text-charcoal text-3xl md:text-5xl leading-tight">
+              Lakeside Community Master Plan
+            </h2>
+            <p className="font-body text-sm text-text-secondary max-w-2xl leading-relaxed">
+              Spread across 20 premium low-density acres, featuring 121 vastu-compliant gated villas, pocket gardens, custom botanical corridors, and an exclusive sunset-view clubhouse.
+            </p>
+          </div>
+
+          <div className="bg-white border border-gold/15 p-6 rounded-sm flex flex-col items-center justify-center relative shadow-lg overflow-hidden max-w-4xl mx-auto w-full">
+            <div className="relative w-full h-[250px] sm:h-[400px] md:h-[500px]">
+              <Image
+                src="https://imgcdn.houssed.com/assets/Files/Projects/124076/Master%20Plan/MP-1735991182.webp"
+                alt="Villa Scapes Community Master Plan Layout"
+                fill
+                className="object-contain filter brightness-95"
+                sizes="(max-width: 1024px) 100vw, 80vw"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

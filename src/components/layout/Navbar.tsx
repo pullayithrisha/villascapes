@@ -26,7 +26,7 @@ export default function Navbar() {
     { name: 'Villas', href: '/#configurations' },
     { name: 'Floor Plans', href: '/floor-plans' },
     { name: 'Amenities', href: '/#amenities' },
-    { name: 'Master Plan', href: '/floor-plans' },
+    { name: 'Master Plan', href: '/floor-plans#master-plan' },
     { name: 'Location', href: '/#location' },
     { name: 'Gallery', href: '/#gallery' },
     { name: 'Specifications', href: '/specifications' },
