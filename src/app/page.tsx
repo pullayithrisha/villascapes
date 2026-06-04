@@ -14,9 +14,9 @@ export default function Home() {
       <Hero />
       <StatsBar />
       <AboutProject />
-      <VillaConfigurations />
       <AmenitiesHighlights />
       <GalleryPreview />
+      <VillaConfigurations />
       <LocationAdvantages />
       <DeveloperLegacy />
       <Testimonials />

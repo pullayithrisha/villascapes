@@ -205,11 +205,11 @@ export default function AmenitiesHighlights() {
                 <div className="flex items-center justify-between pb-2 border-b border-white/5">
                   <span className="font-accent text-[8px] tracking-[0.2em] text-gold uppercase">{category.label}</span>
                   {isTop && (
-                    <span className="font-accent text-[7.5px] text-white/50 tracking-wider flex items-center gap-1.5 font-bold uppercase select-none">
+                    <span className="font-accent text-[10.5px] text-gold tracking-[0.15em] flex items-center gap-2 font-bold uppercase select-none animate-pulse">
                       TAP TO SWAP
-                      <span className="relative flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-gold"></span>
+                      <span className="relative flex h-3.5 w-3.5">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold opacity-80"></span>
+                        <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-gold"></span>
                       </span>
                     </span>
                   )}

@@ -30,7 +30,7 @@ export default function GalleryPreview() {
   ];
 
   return (
-    <section className="py-12 md:py-16 px-4 md:px-16 bg-navy text-white overflow-hidden relative">
+    <section id="gallery" className="py-12 md:py-16 px-4 md:px-16 bg-navy text-white overflow-hidden relative">
       <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-16">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">

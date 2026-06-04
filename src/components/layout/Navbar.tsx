@@ -22,15 +22,15 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'Project', href: '/about' },
-    { name: 'Villas', href: '/configurations' },
-    { name: 'Floor Plans', href: '/floor-plans' },
-    { name: 'Amenities', href: '/amenities' },
-    { name: 'Master Plan', href: '/floor-plans' },
-    { name: 'Location', href: '/location' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Specifications', href: '/specifications' },
-    { name: 'Developer', href: '/about' },
+    { name: 'Project', href: '/#about' },
+    { name: 'Villas', href: '/#configurations' },
+    { name: 'Floor Plans', href: '/#configurations' },
+    { name: 'Amenities', href: '/#amenities' },
+    { name: 'Master Plan', href: '/#configurations' },
+    { name: 'Location', href: '/#location' },
+    { name: 'Gallery', href: '/#gallery' },
+    { name: 'Specifications', href: '/#configurations' },
+    { name: 'Developer', href: '/#developer' },
   ];
 
   return (

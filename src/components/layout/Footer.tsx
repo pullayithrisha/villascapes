@@ -5,16 +5,16 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const linksGroup1 = [
-    { name: 'About Project', href: '/about' },
-    { name: 'Villa Configurations', href: '/configurations' },
-    { name: 'Amenities', href: '/amenities' },
-    { name: 'Photo Gallery', href: '/gallery' },
+    { name: 'About Project', href: '/#about' },
+    { name: 'Villa Configurations', href: '/#configurations' },
+    { name: 'Amenities', href: '/#amenities' },
+    { name: 'Photo Gallery', href: '/#gallery' },
   ];
 
   const linksGroup2 = [
-    { name: 'Location Advantages', href: '/location' },
-    { name: 'Floor Plans', href: '/floor-plans' },
-    { name: 'Specifications', href: '/specifications' },
+    { name: 'Location Advantages', href: '/#location' },
+    { name: 'Floor Plans', href: '/#configurations' },
+    { name: 'Specifications', href: '/#configurations' },
     { name: 'FAQs', href: '/faqs' },
   ];
 
